@@ -1,5 +1,5 @@
 <template>
-  <div class="team">
+  <div class="team mt-4 mx-2">
     <h1 class="subheading grey--text">Executives Page</h1>
 
     <v-container grid-list-xs>

@@ -1,19 +1,19 @@
 <template>
   <v-dialog max-width="600px" v-model="dialogToggle">
-    <v-btn slot="activator" color="success">Apply For Extension</v-btn>
+    <v-btn slot="activator" color="success">Contact Us</v-btn>
     <v-card>
-      <v-card-title>Add a new project</v-card-title>
+      <v-card-title>Drop a Message or Feedback and we will be sure to get back to you shortly.</v-card-title>
       <v-card-text>
         <v-form ref="form" class="px-3">
           <v-text-field
-            label="Title"
+            label="Name"
             :value="title"
             v-model="title"
             prepend-icon="folder"
             :rules="inputRules"
           ></v-text-field>
           <v-textarea
-            label="Information"
+            label="Message"
             :value="info"
             v-model="info"
             prepend-icon="edit"
@@ -71,7 +71,7 @@ export default {
             this.info = "";
             this.due = null;
             this.dialogToggle = false;
-            this.$emit("projectAdded");
+            this.$emit("messageSent");
           });
       }
     }

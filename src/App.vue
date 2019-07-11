@@ -1,20 +1,35 @@
 <template>
-  <v-app class="grey lighten-4">
+  <v-app :dark="dark">
     <TheNavbar />
-    <v-content class="mt-4 mx-4 mb-4">
+    <v-content class="mb-4">
+      <v-btn
+        fixed
+        right
+        small
+        fab
+        v-model="dark"
+        @click="dark = !dark"
+        primary
+        class="mt-4"
+        label="Dark"
+      >
+        <v-icon>fas fa-lightbulb</v-icon>
+      </v-btn>
       <router-view></router-view>
     </v-content>
+    <TheFooter />
   </v-app>
 </template>
 
 <script>
 import TheNavbar from "@/components/TheNavbar";
+import TheFooter from "@/components/TheFooter";
 export default {
   name: "App",
-  components: { TheNavbar },
+  components: { TheNavbar, TheFooter },
   data() {
     return {
-      //
+      dark: false
     };
   }
 };

@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects mt-4 mx-4">
     <h1 class="subheading grey--text">Projects page</h1>
 
     <v-container grid-list-xs>
