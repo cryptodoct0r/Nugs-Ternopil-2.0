@@ -8,13 +8,13 @@
       <span>Message Sent!</span>
       <v-btn flat color="white" @click="contactSnackbar = false">close</v-btn>
     </v-snackbar>
-    <v-toolbar clipped-left :dark="dark" app>
+    <v-toolbar clipped-left app>
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="text-uppercase ml-2">
         <router-link to="/">
           <span class="font-weight-bold hidden-sm-and-up">NugsT</span>
-          <span class="font-weight-light hidden-xs-only">Nugs</span>
-          <Span class="hidden-xs-only">Ternopil</Span>
+          <span class="hidden-xs-only">Nugs</span>
+          <Span class="font-weight-light hidden-xs-only">Ternopil</Span>
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -99,7 +99,7 @@ export default {
         }
       ],
       extentionSnackbar: false,
-      contactsnackbar: false
+      contactSnackbar: false
     };
   }
 };

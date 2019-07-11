@@ -29,7 +29,7 @@
             class="headline white--text mb-3 text-xs-center"
           >Join us to Build a brighter future together.</div>
           <em>Kick-start your application today</em>
-          <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">Get Started</v-btn>
+          <v-btn class="blue lighten-2 mt-5" dark large href="#">Get Started</v-btn>
         </v-layout>
       </v-parallax>
     </section>
@@ -54,7 +54,7 @@
                     <v-card-title primary-title class="layout justify-center">
                       <div class="headline text-xs-center">Great Colorfull Events</div>
                     </v-card-title>
-                    <v-card-text>
+                    <v-card-text class="text-xs-center">
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
                       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                       Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
@@ -69,14 +69,14 @@
                     <v-card-title primary-title class="layout justify-center">
                       <div class="headline">Fast Growth</div>
                     </v-card-title>
-                    <v-card-text>
+                    <v-card-text class="text-xs-center">
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
                       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                       Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
                 </v-flex>
-                <div xs12 md4>
+                <v-flex xs12 md4>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
@@ -84,13 +84,13 @@
                     <v-card-title primary-title class="layout justify-center">
                       <div class="headline text-xs-center">We Build together</div>
                     </v-card-title>
-                    <v-card-text>
+                    <v-card-text class="text-xs-center">
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
                       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                       Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
-                </div>
+                </v-flex>
               </v-layout>
             </v-container>
           </div>
@@ -126,7 +126,6 @@ export default {
       }
     ]
   },
-  
 
   components: {
     Carousel

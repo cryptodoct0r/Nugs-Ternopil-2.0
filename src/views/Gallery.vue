@@ -2,7 +2,7 @@
   <div class="projects mt-4 mx-4">
     <h1 class="subheading grey--text">Gallery page</h1>
     <v-layout>
-      <v-flex xs12 sm10 offset-sm1>
+      <v-flex xs12 sm10 offset-sm1 lg8 offset-lg2>
         <v-card>
           <v-container grid-list-sm fluid>
             <v-layout row wrap>
@@ -45,12 +45,12 @@ export default {
       {
         name: "description",
         content:
-          "National Union Of Ghana Students Ternopil comprises of Ghanaian students, with the primary aim of protecting and safeguarding the rights and interests of Ghanaian students in Ternopil."
+          "All the Picures from Nugs-Ternopil events and activities ready for viewing and downloading."
       },
       {
         name: "Keywords",
         content:
-          "Nugs-Ternopil, nugs-ternopil, Nugs Ternopil, Nugs ternopil Ukraine, National Union Of Ghana Students Ternopil, National Union Of Ghana Students Ternopil Ukraine, nugs ternopil, nugsternopil, nugs ternopil"
+          "Nugs-Ternopil gallery, gallery, images, Pictures, pictures from Nugs-Ternopil events, images from nugs ternopil events, download nugsternopil photos"
       }
     ]
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="projects mt-4 mx-4">
-    <h1 class="subheading grey--text">Projects page</h1>
+    <h1 class="subheading grey--text">Online Library</h1>
 
     <v-container grid-list-xs>
       <v-expansion-panel>
@@ -52,6 +52,27 @@ export default {
     return {
       projects: []
     };
+  },
+  metaInfo: {
+    title: "Nugs-Ternopil",
+    titleTemplate: "%s - Library",
+    htmlAttrs: {
+      lang: "en",
+      amp: true
+    },
+    meta: [
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content:
+          "A combination of Books to fit students from Ternopil Medical, Technical and Economics University."
+      },
+      {
+        name: "Keywords",
+        content:
+          "Nugs-Ternopil Library, Library, e-library, books, text books, download medical text books, e-books"
+      }
+    ]
   },
   computed: {
     myProjects() {

@@ -32,6 +32,27 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: "Nugs-Ternopil",
+    titleTemplate: "%s - Executives",
+    htmlAttrs: {
+      lang: "en",
+      amp: true
+    },
+    meta: [
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content:
+          "The men and women who are in charge of Nugs-Ternopil for the year 2019/2020"
+      },
+      {
+        name: "Keywords",
+        content:
+          "Nugs-Ternopil executives, executives 2019/2020 year, nugsternopil executives 2019/2020"
+      }
+    ]
+  },
   data() {
     return {
       team: [
