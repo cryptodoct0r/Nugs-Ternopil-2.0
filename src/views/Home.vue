@@ -105,6 +105,43 @@ import Carousel from "@/components/carousel.vue";
 import db from "@/fb";
 export default {
   name: "Home",
+  metaInfo: {
+    title: "Nugs-Ternopil",
+    titleTemplate: "%s - Home",
+    htmlAttrs: {
+      lang: "en",
+      amp: true
+    },
+    meta: [
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content:
+          "National Union Of Ghana Students Ternopil comprises of Ghanaian students, with the primary aim of protecting and safeguarding the rights and interests of Ghanaian students in Ternopil."
+      },
+      {
+        name: "Keywords",
+        content:
+          "Nugs-Ternopil, nugs-ternopil, Nugs Ternopil, Nugs ternopil Ukraine, National Union Of Ghana Students Ternopil, National Union Of Ghana Students Ternopil Ukraine, nugs ternopil, nugsternopil, nugs ternopil"
+      }
+    ]
+  },
+  head() {
+    return {
+      title:
+        "Детейлінг центр Virus Тернопіль. Хімчистка, полірування, реставрація авто",
+      titleTemplate: "Virus - %s!",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Детейлінг студія Virus - комплексний догляд за Вашим авто. Передпродажна підготовка, хімчистка салону, полірування кузова, керамічне покритя, перетяжка руля, реставрація шкіри."
+        }
+      ]
+    };
+  },
+
   components: {
     Carousel
   },

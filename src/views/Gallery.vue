@@ -29,3 +29,30 @@
     </v-layout>
   </div>
 </template>
+
+
+<script>
+export default {
+  metaInfo: {
+    title: "Nugs-Ternopil",
+    titleTemplate: "%s - Gallery",
+    htmlAttrs: {
+      lang: "en",
+      amp: true
+    },
+    meta: [
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content:
+          "National Union Of Ghana Students Ternopil comprises of Ghanaian students, with the primary aim of protecting and safeguarding the rights and interests of Ghanaian students in Ternopil."
+      },
+      {
+        name: "Keywords",
+        content:
+          "Nugs-Ternopil, nugs-ternopil, Nugs Ternopil, Nugs ternopil Ukraine, National Union Of Ghana Students Ternopil, National Union Of Ghana Students Ternopil Ukraine, nugs ternopil, nugsternopil, nugs ternopil"
+      }
+    ]
+  }
+};
+</script>
