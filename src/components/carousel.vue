@@ -2,7 +2,7 @@
   <template>
   <div>
     <v-layout row wrap>
-      <v-carousel hide-delimiters>
+      <v-carousel height="375" hide-delimiters>
         <v-carousel-item
           style="cursor: pointer;"
           prevent.stop
@@ -12,7 +12,11 @@
           @click="onLoadMeetup(meetup.id)"
         >
           <div class="title s12">
-            <v-container class="text-center">{{meetup.title}}</v-container>
+            <v-container class="text-center">
+              Click to see more info on the
+              <br />
+              {{meetup.title}}
+            </v-container>
           </div>
         </v-carousel-item>
       </v-carousel>

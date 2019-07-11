@@ -2,19 +2,26 @@
   <v-app :dark="dark">
     <TheNavbar />
     <v-content class="mb-4">
-      <v-btn
-        fixed
-        right
-        small
-        fab
-        v-model="dark"
-        @click="dark = !dark"
-        primary
-        class="mt-4"
-        label="Dark"
-      >
-        <v-icon>fas fa-lightbulb</v-icon>
-      </v-btn>
+      <v-tooltip left>
+        <template v-slot:activator="{ on }">
+          <v-btn
+            v-on="on"
+            fixed
+            right
+            small
+            fab
+            v-model="dark"
+            @click="dark = !dark"
+            primary
+            class="mt-4"
+            label="Dark"
+          >
+            <v-icon>fas fa-lightbulb</v-icon>
+          </v-btn>
+        </template>
+        <span>Toggle DarkMode</span>
+      </v-tooltip>
+
       <router-view></router-view>
     </v-content>
     <TheFooter />
