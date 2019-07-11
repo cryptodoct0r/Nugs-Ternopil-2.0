@@ -43,7 +43,7 @@
               <span class="subheading">Cras facilisis mi vitae nunc</span>
             </div>
           </v-flex>
-          <v-flex xs12>
+          <div xs12>
             <v-container grid-list-xl>
               <v-layout row wrap align-center>
                 <v-flex xs12 md4>
@@ -76,7 +76,7 @@
                     </v-card-text>
                   </v-card>
                 </v-flex>
-                <v-flex xs12 md4>
+                <div xs12 md4>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
                       <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
@@ -90,10 +90,10 @@
                       Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
-                </v-flex>
+                </div>
               </v-layout>
             </v-container>
-          </v-flex>
+          </div>
         </v-layout>
       </section>
     </v-container>
