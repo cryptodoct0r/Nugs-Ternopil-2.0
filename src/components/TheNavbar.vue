@@ -10,15 +10,16 @@
     </v-snackbar>
     <v-toolbar clipped-left :dark="dark" app>
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title class="text-uppercase">
+      <v-toolbar-title class="text-uppercase ml-2">
         <router-link to="/">
-          <span class="font-weight-light">Nugs</span>
-          <Span>Ternopil</Span>
+          <span class="font-weight-bold hidden-sm-and-up">NugsT</span>
+          <span class="font-weight-light hidden-xs-only">Nugs</span>
+          <Span class="hidden-xs-only">Ternopil</Span>
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <v-menu offset-y>
+      <v-menu offset-y class="hidden-xs-only">
         <v-btn flat slot="activator" color="grey">
           <v-icon left>expand_more</v-icon>
           <span>Menu</span>
@@ -41,7 +42,7 @@
           <v-avatar size="100" class="gray lighten-2">
             <img src="/nugst-new-logo.jpg" alt />
           </v-avatar>
-          <p class="subheading my-2">Nugs Ternopil</p>
+          <p class="subheading my-2 font-weight-black">Nugs-Ternopil</p>
         </v-flex>
         <v-divider></v-divider>
         <v-flex class="my-1">

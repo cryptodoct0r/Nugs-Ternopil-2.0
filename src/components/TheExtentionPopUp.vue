@@ -1,6 +1,6 @@
 <template>
   <v-dialog max-width="600px" v-model="dialogToggle">
-    <v-btn slot="activator" color="success">Apply For Extension</v-btn>
+    <v-btn slot="activator" small color="success">Apply For Extension</v-btn>
     <v-card>
       <v-card-title>Add the information for extention application</v-card-title>
       <v-card-text>
