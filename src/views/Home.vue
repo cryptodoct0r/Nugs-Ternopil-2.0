@@ -7,7 +7,7 @@
     <v-container>
       <section>
         <v-flex xs12 class="text-xs-center my-3">
-          <h3>Join our awesome Meetups today!</h3>
+          <h3>Find out About upcoming events and News at your finger tips.</h3>
         </v-flex>
 
         <v-flex xs12>
@@ -27,7 +27,7 @@
         <v-layout column align-center justify-center>
           <div
             class="headline white--text mb-3 text-xs-center"
-          >Web development has never been easier</div>
+          >Join us to Build a brighter future together.</div>
           <em>Kick-start your application today</em>
           <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">Get Started</v-btn>
         </v-layout>
@@ -39,7 +39,7 @@
         <v-layout column wrap class="my-5" align-center>
           <v-flex xs12 sm4 class="my-3">
             <div class="text-xs-center">
-              <h2 class="headline">The best way to start developing</h2>
+              <h2 class="headline">Some of the Benefits of bing a member</h2>
               <span class="subheading">Cras facilisis mi vitae nunc</span>
             </div>
           </v-flex>
@@ -52,7 +52,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Material Design</div>
+                      <div class="headline text-xs-center">Great Colorfull Events</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -67,7 +67,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Fast development</div>
+                      <div class="headline">Fast Growth</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -82,7 +82,7 @@
                       <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Completely Open Sourced</div>
+                      <div class="headline text-xs-center">We Build together</div>
                     </v-card-title>
                     <v-card-text>
                       Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
