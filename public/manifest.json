@@ -1,12 +1,30 @@
 {
   "name": "Nugs-Ternopil",
   "short_name": "Nugs-T",
+  "description": "National Union Of Ghana Students Ternopil comprises of Ghanaian students, with the primary aim of protecting and safeguarding the rights and interests of Ghanaian students in Ternopil.",
+  "lang": "en-US",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "Scope": "/",
   "start_url": "/",
+  "scope": "https://nugs-ternopil.netlify.com/*/",
   "icons": [{
+      "src": "./images/icons/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    }, {
+      "src": "./images/icons/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }, {
+      "src": "./images/icons/apple-icon-57x57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    }, {
+      "src": "./images/icons/apple-icon-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    }, {
       "src": "./images/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
@@ -46,6 +64,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
+
 }
