@@ -6,9 +6,9 @@ import 'vuetify/src/stylus/app.styl'
 Vue.use(Vuetify, {
   iconfont: 'md' && 'fa',
   theme: {
-    primary: '#9652ff',
-    success: '#3cd1c2',
+    primary: '#fcd116',
+    success: '#006b3f',
     info: "ffaa2c",
-    error: '#f83e70'
+    error: '#ce1126'
   }
 })

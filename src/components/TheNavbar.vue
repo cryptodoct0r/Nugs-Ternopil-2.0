@@ -12,8 +12,8 @@
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="text-uppercase ml-2">
         <router-link to="/">
-          <span class="font-weight-bold hidden-sm-and-up">NugsT</span>
-          <span class="hidden-xs-only">Nugs</span>
+          <span class="font-weight-bold hidden-sm-and-up">Nugs-T</span>
+          <span class="hidden-xs-only">Nugs-</span>
           <Span class="font-weight-light hidden-xs-only">Ternopil</Span>
         </router-link>
       </v-toolbar-title>
