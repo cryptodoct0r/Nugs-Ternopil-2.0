@@ -4,6 +4,7 @@
       <v-layout row wrap>
         <v-flex xs12>
           <v-btn
+            :title="icon.title"
             v-for="icon in icons"
             :key="icon.icon"
             color="grey"
@@ -52,11 +53,17 @@ export default {
   data: () => ({
     icons: [
       {
+        title: "Facebook",
         route: "https://www.facebook.com/NUGSTOFFICAL/",
         icon: "fab fa-facebook"
       },
-      { route: "https://www.twitter.com", icon: "fab fa-twitter" },
       {
+        title: "Old Site",
+        route: "https://nugsternopil.neniemsu.com/",
+        icon: "fas fa-link"
+      },
+      {
+        title: "Instagram",
         route: "https://www.instagram.com/nugsternopil/?hl=en",
         icon: "fab fa-instagram"
       }

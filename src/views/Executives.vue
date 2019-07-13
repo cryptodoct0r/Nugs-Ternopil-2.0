@@ -24,7 +24,7 @@
             </v-card-text>
             <v-card-actions justify-space-around>
               <v-tooltip top>
-                <v-btn fab color="grey" small slot="activator">
+                <v-btn fab color="grey" small slot="activator" @click="onLoadPastExecutives()">
                   <v-icon small>message</v-icon>
                 </v-btn>
                 <span>Send a Message</span>
@@ -34,6 +34,14 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <v-tooltip left>
+      <template v-slot:activator="{ on }">
+        <v-btn v-on="on" fixed right bottom small fab class="mb-4" label="Dark">
+          <v-icon>fas fa-history</v-icon>
+        </v-btn>
+      </template>
+      <span>Past Presidents And Vices.</span>
+    </v-tooltip>
   </div>
 </template>
 
@@ -161,6 +169,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    onLoadPastExecutives() {
+      this.$router.push("/pastExecs");
+    }
   }
 };
 </script>

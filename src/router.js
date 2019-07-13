@@ -11,7 +11,7 @@ import Profile from './views/User/profile.vue'
 import SignUp from './views/User/signUp.vue'
 import SignIn from './views/User/signIn.vue'
 import MeetUp from './views/Meetup/meetUp.vue'
-import lightbox from './views/lightbox.vue'
+import pastExecs from './views/pastExecs.vue'
 
 
 Vue.use(Router)
@@ -81,9 +81,9 @@ export default new Router({
       component: SignIn
     },
     {
-      path: '/lightbox',
-      name: 'lightbox',
-      component: lightbox
+      path: '/pastExecs',
+      name: 'pastExecs',
+      component: pastExecs
     }
   ]
 })
