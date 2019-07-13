@@ -29,7 +29,7 @@
             class="headline white--text mb-3 text-xs-center"
           >Join us to Build a brighter future together.</div>
           <em>Kick-start your application today</em>
-          <v-btn class="blue lighten-2 mt-5" dark large href="#">Get Started</v-btn>
+          <v-btn class="success lighten-2 mt-5" large href="#">Register Now!</v-btn>
         </v-layout>
       </v-parallax>
     </section>

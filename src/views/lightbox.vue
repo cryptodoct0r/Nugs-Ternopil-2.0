@@ -8,21 +8,13 @@
           <v-container grid-list-sm fluid>
             <v-layout row wrap>
               <v-flex v-for="(image, index) in images" :key="image.id" xs4 d-flex>
-                <v-card
-                  v-lazy-container="{ selector: 'v-img', error: 'xxx.jpg', loading: 'xxx.jpg' }"
-                  flat
-                  tile
-                  class="d-flex"
-                >
+                <v-card flat tile class="d-flex">
                   <v-img
-                    :data-src="image.src"
                     :src="image.src"
                     :lazy-src="image.src"
-                    :alt="image.caption"
                     @click="openGallery(index)"
                     aspect-ratio="1"
                     class="grey lighten-2"
-                    style="cursor: pointer;"
                   >
                     <template v-slot:placeholder>
                       <v-layout fill-height align-center justify-center ma-0>
@@ -37,9 +29,6 @@
                 ref="lightbox"
                 :show-caption="true"
                 :show-light-box="false"
-                :autoPlay="true"
-                :autoPlayTime="10000"
-                :nThumbs="3"
               ></LightBox>
             </v-layout>
           </v-container>
