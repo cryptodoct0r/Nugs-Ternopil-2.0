@@ -1,5 +1,9 @@
 <template>
   <div class="home">
+    <v-snackbar v-model="registersnackbar" top color="success" :timeout="10000">
+      <span>Registration Sent</span>
+      <v-btn flat color="white" @click="registersnackbar = false">close</v-btn>
+    </v-snackbar>
     <section>
       <Carousel />
     </section>
@@ -23,13 +27,13 @@
     </v-container>
 
     <section>
-      <v-parallax src="/section.jpg" height="380">
+      <v-parallax @dark="darken = true" :v-show="darken = true" src="/section.jpg" height="380">
         <v-layout column align-center justify-center>
           <div
             class="headline white--text mb-3 text-xs-center"
           >Join us to Build a brighter future together.</div>
           <em>Kick-start your application today</em>
-          <v-btn class="success lighten-2 mt-5" large href="#">Register Now!</v-btn>
+          <TheRegistrationPopUp @registrationSent="registersnackbar = true" />
         </v-layout>
       </v-parallax>
     </section>
@@ -102,6 +106,7 @@
 
 <script>
 import Carousel from "@/components/carousel.vue";
+import TheRegistrationPopUp from "@/components/TheRegistrationPopUp";
 import db from "@/fb";
 export default {
   name: "Home",
@@ -128,11 +133,15 @@ export default {
   },
 
   components: {
-    Carousel
+    Carousel,
+    TheRegistrationPopUp
   },
   data() {
     return {
-      projects: []
+      projects: [],
+      registersnackbar: false,
+      darken: false,
+      lighten: false
     };
   },
   created() {

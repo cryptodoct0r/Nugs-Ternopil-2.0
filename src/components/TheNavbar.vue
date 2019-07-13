@@ -19,7 +19,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <v-menu offset-y class="hidden-xs-only">
+      <v-menu offset-y class="hidden-xs-only" transition="scale-transition" origin="center center">
         <v-btn flat slot="activator" color="grey">
           <v-icon left>expand_more</v-icon>
           <span>Menu</span>
@@ -32,8 +32,6 @@
       </v-menu>
 
       <TheExtentionPopUp @applicationSent="extentionsnackbar = true" />
-
-      <!-- <v-switch v-model="toggleLights" primary label="Dark"></v-switch> -->
     </v-toolbar>
 
     <v-navigation-drawer v-model="drawer" clipped app>

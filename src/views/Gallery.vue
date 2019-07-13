@@ -1,19 +1,21 @@
 <template>
   <div class="gallery mt-4 mx-4">
     <h1 class="subheading grey--text">Gallery page</h1>
+    <LightBox
+      :images="images"
+      ref="lightbox"
+      :show-caption="true"
+      :show-light-box="false"
+      :nThumbs="3"
+    ></LightBox>
 
     <v-layout>
       <v-flex xs12 sm10 offset-sm1 lg8 offset-lg2>
         <v-card>
           <v-container grid-list-sm fluid>
             <v-layout row wrap>
-              <v-flex v-for="(image, index) in images" :key="image.id" xs4 d-flex>
-                <v-card
-                  v-lazy-container="{ selector: 'v-img', error: 'xxx.jpg', loading: 'xxx.jpg' }"
-                  flat
-                  tile
-                  class="d-flex"
-                >
+              <v-flex v-for="(image, index) in images.slice(0, 12)" :key="image.id" xs4 d-flex>
+                <v-card flat tile class="d-flex">
                   <v-img
                     :data-src="image.src"
                     :src="image.src"
@@ -32,15 +34,6 @@
                   </v-img>
                 </v-card>
               </v-flex>
-              <LightBox
-                :images="images"
-                ref="lightbox"
-                :show-caption="true"
-                :show-light-box="false"
-                :autoPlay="true"
-                :autoPlayTime="10000"
-                :nThumbs="3"
-              ></LightBox>
             </v-layout>
           </v-container>
         </v-card>
@@ -53,6 +46,7 @@
 import LightBox from "@/components/LightBox";
 import siteLoading from "@/siteloading.gif";
 import images from "@/dummy";
+
 export default {
   metaInfo: {
     title: "Nugs-Ternopil",
@@ -81,6 +75,7 @@ export default {
   data() {
     return {
       images,
+
       siteLoading
     };
   },
