@@ -114,13 +114,7 @@ export default {
           avatar: "/avatar-8.jpeg"
         },
         {
-          name: "Abdallah Hinda 1",
-          color: "primary",
-          role: "Organizing Secretery",
-          avatar: "/avatar-9.jpeg"
-        },
-        {
-          name: "Abdallah Hinda 2",
+          name: "Abdallah Hinda",
           color: "black",
           role: "Organizing Secretery",
           avatar: "/avatar-9a.jpeg"
@@ -206,16 +200,6 @@ export default {
   border: 4px solid #fff;
 
   transform: rotate(-45deg);
-
-  &.greentag {
-    background-color: #3cd1c2;
-  }
-  &.yellowtag {
-    background-color: orange;
-  }
-  &.redtag {
-    background-color: tomato;
-  }
 }
 
 .pin-inner {
