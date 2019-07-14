@@ -1,6 +1,6 @@
 <template>
   <div class="projects mt-4 mx-4">
-    <h1 class="subheading grey--text">Online Library</h1>
+    <h1 class="heading grey--text">Online Library</h1>
 
     <v-container grid-list-xs>
       <v-expansion-panel>

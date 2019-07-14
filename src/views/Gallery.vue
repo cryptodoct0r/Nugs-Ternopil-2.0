@@ -1,6 +1,6 @@
 <template>
   <div class="gallery mt-4 mx-4">
-    <h1 class="subheading grey--text">Gallery page</h1>
+    <h1 class="heading grey--text">Gallery page</h1>
     <LightBox
       :images="images"
       ref="lightbox"

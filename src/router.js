@@ -12,7 +12,7 @@ import SignUp from './views/User/signUp.vue'
 import SignIn from './views/User/signIn.vue'
 import MeetUp from './views/Meetup/meetUp.vue'
 import pastExecs from './views/pastExecs.vue'
-
+import Execs_2018_2019 from './views/Execs_2018_2019.vue'
 
 Vue.use(Router)
 
@@ -84,6 +84,11 @@ export default new Router({
       path: '/pastExecs',
       name: 'pastExecs',
       component: pastExecs
+    },
+    {
+      path: '/Execs_2018_2019',
+      name: 'Execs_2018_2019',
+      component: Execs_2018_2019
     }
   ]
 })

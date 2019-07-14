@@ -1,10 +1,10 @@
 <template>
   <div class="team mt-4 mx-4">
-    <h1 class="heading grey--text">Executives Page</h1>
+    <h1 class="heading grey--text">Executives 2018-2019</h1>
 
     <v-container grid-list-xs>
       <v-layout row wrap>
-        <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="` ${person.role} ${person.name}`">
+        <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="person.name">
           <v-card class="text-xs-center mx-auto my-3" max-width="250" style="border-radius: 20px;">
             <v-responsive class="pb-4 pt-2">
               <v-avatar size="120" :class="`pin lighten-2 ${person.color}`">
@@ -14,7 +14,7 @@
                   contain
                   :src="person.avatar"
                   :lazy-src="person.avatar"
-                  :alt="` ${person.role} ${person.name}`"
+                  :alt="`${person.name} ${person.role}`"
                   class="pin-inner"
                 ></v-img>
               </v-avatar>
@@ -87,62 +87,69 @@ export default {
           name: "Abdulkadir 0. Sheriff",
           role: "President",
           color: "primary",
-          avatar: "/avatar-6.jpeg"
+          avatar: "/zackEdited.jpg"
         },
         {
           name: "Ofori Theresa",
-          color: "error",
+          color: "black",
           role: "Vice President",
-          avatar: "/avatar-7.jpeg"
+          avatar: "nana.jpeg"
         },
         {
-          name: "Kwesi O. A. Gyebi",
+          name: "Gertrude Boakye",
           color: "error",
-          role: "Financial Secretary",
-          avatar: "/avatar-12.jpeg"
-        },
-        {
-          name: "Agyekum Zelda N.Frema",
-          color: "primary",
           role: "General Secretery",
-          avatar: "/avatar-17.jpeg"
+          avatar: "gettyEdited.jpeg"
         },
         {
-          name: "Dennis Appiah Nkansah",
+          name: "Samuel Tuni",
           color: "black",
-          role: "Public Relations Officer",
-          avatar: "/avatar-8.jpeg"
+          role: "Financial Secretary",
+          avatar: "samuelTuniEdited.jpeg"
         },
         {
-          name: "Abdallah Hinda 1",
+          name: "Barriister Kenneth Appianing",
           color: "primary",
-          role: "Organizing Secretery",
-          avatar: "/avatar-9.jpeg"
+          role: "Treasurer",
+          avatar: "kennethEdited.jpeg"
         },
         {
-          name: "Abdallah Hinda 2",
+          name: "Matthew Tamakloe",
+          color: "success",
+          role: "Public Relations Officer",
+          avatar: "/tamaEdited.jpeg"
+        },
+        {
+          name: "Emmanuel owusu",
+          color: "info",
+          role: "Deputy Public Relations Officer",
+          avatar: "/deputypro.jpeg"
+        },
+        {
+          name: "Isaac Osae",
           color: "black",
           role: "Organizing Secretery",
-          avatar: "/avatar-9a.jpeg"
-        },
-        {
-          name: "Ahmed S. Bukari",
-          color: "error",
-          role: "Dept. Organizing Secretary",
-          avatar: "/avatar-16.jpeg"
-        },
-        {
-          name: "Abdullah Ahmed A.Faid",
-          color: "error",
-          role: "Head of Academics",
-          avatar: "/avatar-10a.jpeg"
+          avatar: "/IsacEdited.jpeg"
         },
 
         {
-          name: "Juanita Mireluaa Sefa",
+          name: "Michael Osei",
+          color: "success",
+          role: "Dept. Organizing Secretary",
+          avatar: "/michel.jpeg"
+        },
+        {
+          name: "Rafiq Arhin",
+          color: "error",
+          role: "Academic Committee Chairperson",
+          avatar: "/radiqEdited.jpeg"
+        },
+
+        {
+          name: "Evelyn Gyetuah",
           color: "black",
           role: "Economics Administrator",
-          avatar: "/avatar-13.jpeg"
+          avatar: "/eveEdited.jpeg"
         },
         {
           name: "Dennis Sunten",
@@ -150,50 +157,22 @@ export default {
           role: "Health Director",
           avatar: "/avatar-14.jpeg"
         },
+
         {
-          name: "Christel Ayangba",
-          color: "success",
-          role: "Women's Commisioner",
-          avatar: "/avatar-11.jpeg"
-        },
-        {
-          name: "Zulaiha Naadu Ali",
-          color: "primary",
-          role: "Deputy Women's Commissioner",
-          avatar: "/avatar-15.jpeg"
+          name: "Annie Abbeyquaye Donkor",
+          color: "black",
+          role: "Welfare Committee Chair",
+          avatar: "/annieEdited.jpeg"
         },
 
         {
-          name: "Owusu Lois Asomaniwaa",
-          color: "info",
-          role: "Welfare Committee Chair",
-          avatar: "/avatar-19.jpeg"
-        },
-        {
-          name: "Owusu Lois Asomaniwaa",
-          color: "info",
-          role: "Dept. Welfare Committee Chair",
-          avatar: "/avatar-19.jpeg"
-        },
-        {
-          name: "Damoah A. Kofi",
-          color: "black",
-          role: "Head of Sports",
-          avatar: "/avatar-18a.jpeg"
-        },
-        {
-          name: "Eunice Efua Aidoo",
-          color: "success",
-          role: "Deputy Head of Sports",
-          avatar: "/avatar-20.jpeg"
+          name: "Bartz Amaniampong Koduah",
+          color: "error",
+          role: "Technical University Representative",
+          avatar: "/bartzEdited.jpeg"
         }
       ]
     };
-  },
-  methods: {
-    onLoadPastExecutives() {
-      this.$router.push("/pastExecs");
-    }
   }
 };
 </script>
@@ -205,16 +184,6 @@ export default {
   border: 4px solid #fff;
 
   transform: rotate(-45deg);
-
-  &.greentag {
-    background-color: #3cd1c2;
-  }
-  &.yellowtag {
-    background-color: orange;
-  }
-  &.redtag {
-    background-color: tomato;
-  }
 }
 
 .pin-inner {

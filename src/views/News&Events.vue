@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="news&events mt-4 mx-4">
+    <h1 class="heading grey--text">News & Events</h1>
+  </div>
 </template>
 
 <script>
