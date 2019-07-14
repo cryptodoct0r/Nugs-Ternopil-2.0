@@ -1,13 +1,13 @@
 <template>
-  <div class="team mt-4 mx-4">
+  <v-container class="pastExecutives">
     <h1 class="heading grey--text">Hall of Fame!</h1>
     <v-container grid-list-xs>
       <v-card>
         <v-layout row wrap>
-          <v-flex xs11>
+          <v-flex xs9 sm11>
             <v-card-text>2018/2019 Zach and Mbea</v-card-text>
           </v-flex>
-          <v-flex xs1>
+          <v-flex xs3 sm1>
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
@@ -82,10 +82,10 @@
     <v-container grid-list-xs>
       <v-card>
         <v-layout row wrap>
-          <v-flex xs11>
+          <v-flex xs9 sm11>
             <v-card-text>2017/2018 Christian and Ella</v-card-text>
           </v-flex>
-          <v-flex xs1>
+          <v-flex xs3 sm1>
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
@@ -160,10 +160,10 @@
     <v-container grid-list-xs>
       <v-card>
         <v-layout row wrap>
-          <v-flex xs11>
+          <v-flex xs9 sm11>
             <v-card-text>2015/2016 and 2016/2017 Juliet and Samuel</v-card-text>
           </v-flex>
-          <v-flex xs1>
+          <v-flex xs3 sm1>
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
@@ -235,7 +235,7 @@
         </v-container>
       </v-card>
     </v-container>
-  </div>
+  </v-container>
 </template>
 
 <script>

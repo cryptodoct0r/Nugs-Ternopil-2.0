@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>SignUp Page</h1>
-  </div>
+  <v-container>
+    <h1 class="heading grey--text">SignUp Page</h1>
+  </v-container>
 </template>

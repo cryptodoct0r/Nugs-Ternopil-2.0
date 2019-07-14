@@ -1,12 +1,12 @@
 <template>
-  <div class="team mt-4 mx-4">
+  <v-container class="Executives-2018-2019">
     <h1 class="heading grey--text">Executives 2018-2019</h1>
 
     <v-container grid-list-xs>
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="person.name">
           <v-card class="text-xs-center mx-auto my-3" max-width="250" style="border-radius: 20px;">
-            <v-responsive class="pb-4 pt-2">
+            <v-responsive class="pt-2">
               <v-avatar size="120" :class="`pin lighten-2 ${person.color}`">
                 <v-img
                   max-width="114"
@@ -54,7 +54,7 @@
       </template>
       <span>Past Presidents And Vices.</span>
     </v-tooltip>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -90,7 +90,7 @@ export default {
           avatar: "/zackEdited.jpg"
         },
         {
-          name: "Ofori Theresa",
+          name: "Nana Mbeah Otoo",
           color: "black",
           role: "Vice President",
           avatar: "nana.jpeg"
@@ -108,7 +108,7 @@ export default {
           avatar: "samuelTuniEdited.jpeg"
         },
         {
-          name: "Barriister Kenneth Appianing",
+          name: "Barriister Kenneth",
           color: "primary",
           role: "Treasurer",
           avatar: "kennethEdited.jpeg"
@@ -122,26 +122,26 @@ export default {
         {
           name: "Emmanuel owusu",
           color: "info",
-          role: "Deputy Public Relations Officer",
+          role: "Deputy P R O",
           avatar: "/deputypro.jpeg"
         },
         {
           name: "Isaac Osae",
           color: "black",
-          role: "Organizing Secretery",
+          role: "Organizing Sec",
           avatar: "/IsacEdited.jpeg"
         },
 
         {
           name: "Michael Osei",
           color: "success",
-          role: "Dept. Organizing Secretary",
+          role: "Dept. Organizing Sec",
           avatar: "/michel.jpeg"
         },
         {
           name: "Rafiq Arhin",
           color: "error",
-          role: "Academic Committee Chairperson",
+          role: "Academic Chairperson",
           avatar: "/radiqEdited.jpeg"
         },
 
@@ -168,7 +168,7 @@ export default {
         {
           name: "Bartz Amaniampong Koduah",
           color: "error",
-          role: "Technical University Representative",
+          role: "Technical Administrator",
           avatar: "/bartzEdited.jpeg"
         }
       ]
@@ -178,9 +178,9 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss"  scoped>
 .pin {
-  border-radius: 50% 50% 50% 0;
+  border-radius: 0 50% 50% 50%;
   border: 4px solid #fff;
 
   transform: rotate(-45deg);

@@ -1,5 +1,5 @@
 <template>
-  <div class="projects mt-4 mx-4">
+  <v-container class="OnlineLib">
     <h1 class="heading grey--text">Online Library</h1>
 
     <v-container grid-list-xs>
@@ -42,7 +42,7 @@
         </v-expansion-panel>
       </div>
     </v-container>
-  </div>
+  </v-container>
 </template>
 
 <script>

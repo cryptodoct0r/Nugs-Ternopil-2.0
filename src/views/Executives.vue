@@ -1,5 +1,5 @@
 <template>
-  <div class="team mt-4 mx-4">
+  <v-container class="Executives">
     <h1 class="heading grey--text">Executives Page</h1>
 
     <v-container grid-list-xs>
@@ -54,7 +54,7 @@
       </template>
       <span>Past Presidents And Vices.</span>
     </v-tooltip>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -199,7 +199,8 @@ export default {
 </script>
 
 
-<style lang="scss">
+
+<style lang="scss" scoped>
 .pin {
   border-radius: 50% 50% 50% 0;
   border: 4px solid #fff;

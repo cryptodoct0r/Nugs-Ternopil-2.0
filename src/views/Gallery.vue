@@ -1,6 +1,6 @@
 <template>
-  <div class="gallery mt-4 mx-4">
-    <h1 class="heading grey--text">Gallery page</h1>
+  <v-container class="gallery">
+    <h1 class="heading grey--text">Image Gallery</h1>
     <LightBox
       :images="images"
       ref="lightbox"
@@ -39,7 +39,7 @@
         </v-card>
       </v-flex>
     </v-layout>
-  </div>
+  </v-container>
 </template>
 
 <script>

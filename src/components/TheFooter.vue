@@ -38,10 +38,10 @@
         </v-flex>
 
         <v-flex xs12 sm10 offset-sm1>
-          <div>
+          <h4 class="grey--text">
             Proudly Created By
             <a class="font-weight-bold" href="https://neniemsu.com">NeniEmsu</a>
-          </div>
+          </h4>
         </v-flex>
       </v-layout>
     </v-container>

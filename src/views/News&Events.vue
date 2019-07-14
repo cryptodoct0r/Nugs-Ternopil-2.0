@@ -1,7 +1,7 @@
 <template>
-  <div class="news&events mt-4 mx-4">
+  <v-container class="news&events">
     <h1 class="heading grey--text">News & Events</h1>
-  </div>
+  </v-container>
 </template>
 
 <script>
