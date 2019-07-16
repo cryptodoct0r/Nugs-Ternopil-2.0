@@ -29,7 +29,7 @@
                   <v-flex xs12 sm8>
                     <v-card-title primary-title>
                       <div>
-                        <div class="headline">Zach</div>
+                        <div class="headline">Zachariah Gyetuah</div>
                         <div>President</div>
                         <div>"God gave us the gift of life; it is up to us to give ourselves the gift of living well."</div>
                       </div>
@@ -58,7 +58,7 @@
                   <v-flex xs12 sm8>
                     <v-card-title primary-title>
                       <div>
-                        <div class="headline">Mbea</div>
+                        <div class="headline">Nana Mbeah Otoo</div>
                         <div>Vice President</div>
                         <div>“Our prime purpose in life is to help others. And if you can’t, don’t hurt them.”</div>
                       </div>

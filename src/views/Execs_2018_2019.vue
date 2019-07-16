@@ -84,7 +84,7 @@ export default {
     return {
       team: [
         {
-          name: "Abdulkadir 0. Sheriff",
+          name: "Zachariah Gyetuah",
           role: "President",
           color: "primary",
           avatar: "/zackEdited.jpg"
