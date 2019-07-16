@@ -209,7 +209,7 @@
               <v-card>
                 <v-layout wrap row>
                   <v-flex xs12 sm4>
-                    <v-img src="/juliet.jpeg" height="125px" contain></v-img>
+                    <v-img src="/samuel.jpeg" height="125px" contain></v-img>
                   </v-flex>
                   <v-flex xs12 sm8>
                     <v-card-title primary-title>

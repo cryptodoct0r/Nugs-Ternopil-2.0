@@ -1,4 +1,16 @@
 const images = [{
+        id: 9,
+        thumb: '/nugsimages/nugstgal9.jpeg',
+        src: '/nugsimages/nugstgal9.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    },
+    {
+        id: 8,
+        thumb: '/nugsimages/nugstgal8.jpeg',
+        src: '/nugsimages/nugstgal8.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    },
+    {
         id: 1,
         thumb: '/nugsimages/nugstgal1.jpeg',
         src: '/nugsimages/nugstgal1.jpeg',

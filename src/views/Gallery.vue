@@ -21,8 +21,9 @@
                     :src="image.src"
                     :lazy-src="image.src"
                     :alt="image.caption"
+                    position="center center"
                     @click="openGallery(index)"
-                    aspect-ratio="1"
+                    aspect-ratio="1.6"
                     class="grey lighten-2"
                     style="cursor: pointer;"
                   >
