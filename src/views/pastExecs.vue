@@ -107,7 +107,7 @@
                   <v-flex xs12 sm8>
                     <v-card-title primary-title>
                       <div>
-                        <div class="headline">Christian</div>
+                        <div class="headline">Acquah Christian Fosu</div>
                         <div>President</div>
                         <div>"A proverb is a short sentence based on long experience."</div>
                       </div>
@@ -131,12 +131,12 @@
               <v-card>
                 <v-layout wrap row>
                   <v-flex xs12 sm4>
-                    <v-img src="/nana.jpeg" height="125px" contain></v-img>
+                    <v-img src="/ella.jpeg" height="125px" contain></v-img>
                   </v-flex>
                   <v-flex xs12 sm8>
                     <v-card-title primary-title>
                       <div>
-                        <div class="headline">Ella</div>
+                        <div class="headline">Poku Emmanuella Adusei</div>
                         <div>Vice President</div>
                         <div>“A new broom sweeps clean but an old broom knows the corners.”</div>
                       </div>
