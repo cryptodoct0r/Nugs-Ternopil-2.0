@@ -1,4 +1,4 @@
-# vue-todo
+# Nugs-Ternopil 2.0
 
 ## Project setup
 ```

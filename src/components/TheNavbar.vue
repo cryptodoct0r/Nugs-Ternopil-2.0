@@ -38,7 +38,7 @@
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100" class="gray lighten-2">
-            <img src="/nugst-new-logo.jpg" alt />
+            <img src="/nugst-new-logo.png" alt="nugs-ternopil logo" />
           </v-avatar>
           <p class="subheading my-2 font-weight-black">Nugs-Ternopil</p>
         </v-flex>
