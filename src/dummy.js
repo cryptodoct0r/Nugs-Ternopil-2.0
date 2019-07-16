@@ -1,4 +1,31 @@
 const images = [{
+        id: 14,
+        thumb: '/nugsimages/nugstgal14.jpeg',
+        src: '/nugsimages/nugstgal14.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    }, {
+        id: 13,
+        thumb: '/nugsimages/nugstgal13.jpeg',
+        src: '/nugsimages/nugstgal13.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    }, {
+        id: 12,
+        thumb: '/nugsimages/nugstgal12.jpeg',
+        src: '/nugsimages/nugstgal12.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    }, {
+        id: 11,
+        thumb: '/nugsimages/nugstgal11.jpeg',
+        src: '/nugsimages/nugstgal11.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    },
+    {
+        id: 10,
+        thumb: '/nugsimages/nugstgal10.jpeg',
+        src: '/nugsimages/nugstgal10.jpeg',
+        caption: '<h4>Heallth Screening 16 July 2019</h4>',
+    },
+    {
         id: 9,
         thumb: '/nugsimages/nugstgal9.jpeg',
         src: '/nugsimages/nugstgal9.jpeg',
