@@ -166,7 +166,7 @@ export default {
         },
 
         {
-          name: "Bartz Amaniampong Koduah",
+          name: "Bartz Amaniampong",
           color: "error",
           role: "Technical Administrator",
           avatar: "/bartzEdited.jpeg"
