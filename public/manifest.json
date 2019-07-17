@@ -44,6 +44,9 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#fcd116"
+  "background_color": "#FFFFFF",
+  "theme_color": "#fcd116",
+  "lang": "English",
+  "orientation": "any",
+  "description": "National Union Of Ghana Students Ternopil comprises of Ghanaian students, with the primary aim of protecting and safeguarding the rights and interests of Ghanaian students in Ternopil.",
 }
