@@ -14,7 +14,7 @@
         <v-card>
           <v-container grid-list-sm fluid>
             <v-layout row wrap>
-              <v-flex v-for="(image, index) in images.slice(0, 12)" :key="image.id" xs4 d-flex>
+              <v-flex v-for="(image, index) in images.slice(0, 21)" :key="image.id" xs4 d-flex>
                 <v-card flat tile class="d-flex">
                   <v-img
                     :data-src="image.src"
