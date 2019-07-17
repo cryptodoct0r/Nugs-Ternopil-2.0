@@ -13,6 +13,7 @@
             router
             :href="icon.route"
             target="_blank"
+            rel="noreferrer"
           >
             <v-icon size="24px">{{ icon.icon }}</v-icon>
           </v-btn>
@@ -40,7 +41,12 @@
         <v-flex xs12 sm10 offset-sm1>
           <h4 class="grey--text">
             Proudly Created By
-            <a class="font-weight-bold" href="https://neniemsu.com">NeniEmsu</a>
+            <a
+              class="font-weight-bold"
+              target="_blank"
+              rel="noreferrer"
+              href="https://neniemsu.com"
+            >NeniEmsu</a>
           </h4>
         </v-flex>
       </v-layout>
