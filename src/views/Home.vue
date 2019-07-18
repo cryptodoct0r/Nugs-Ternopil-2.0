@@ -38,6 +38,16 @@
       </v-parallax>
     </section>
 
+    <Adsense data-ad-client="ca-pub-1638506102244874" data-ad-slot="1234567890"></Adsense>
+
+    <InArticleAdsense data-ad-client="ca-pub-1638506102244874" data-ad-slot="1234567890"></InArticleAdsense>
+
+    <InFeedAdsense
+      data-ad-layout-key="-fg+5n+6t-e7+r"
+      data-ad-client="ca-pub-1638506102244874"
+      data-ad-slot="1234567890"
+    ></InFeedAdsense>
+
     <v-container>
       <section>
         <v-layout column wrap class="my-5" align-center>
