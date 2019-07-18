@@ -1,6 +1,6 @@
 <template>
   <v-container class="pastExecutives">
-    <h1 class="heading grey--text">Hall of Fame!</h1>
+    <h1 class="heading grey--text">Past Presidents</h1>
     <v-container grid-list-xs>
       <v-card>
         <v-layout row wrap>
