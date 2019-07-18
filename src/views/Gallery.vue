@@ -10,12 +10,33 @@
     ></LightBox>
 
     <v-layout>
-      <v-flex xs12 sm10 offset-sm1 lg8 offset-lg2>
+      <v-flex
+        xs12
+        sm10
+        offset-sm1
+        lg8
+        offset-lg2
+      >
         <v-card>
-          <v-container grid-list-sm fluid>
-            <v-layout row wrap>
-              <v-flex v-for="(image, index) in images.slice(0, 21)" :key="image.id" xs4 d-flex>
-                <v-card flat tile class="d-flex">
+          <v-container
+            grid-list-sm
+            fluid
+          >
+            <v-layout
+              row
+              wrap
+            >
+              <v-flex
+                v-for="(image, index) in images.slice(0, 21)"
+                :key="image.id"
+                xs4
+                d-flex
+              >
+                <v-card
+                  flat
+                  tile
+                  class="d-flex"
+                >
                   <v-img
                     :data-src="image.src"
                     :src="image.src"
@@ -28,8 +49,16 @@
                     style="cursor: pointer;"
                   >
                     <template v-slot:placeholder>
-                      <v-layout fill-height align-center justify-center ma-0>
-                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                      <v-layout
+                        fill-height
+                        align-center
+                        justify-center
+                        ma-0
+                      >
+                        <v-progress-circular
+                          indeterminate
+                          color="grey lighten-5"
+                        ></v-progress-circular>
                       </v-layout>
                     </template>
                   </v-img>
@@ -73,7 +102,7 @@ export default {
   components: {
     LightBox
   },
-  data() {
+  data () {
     return {
       images,
 
@@ -81,7 +110,7 @@ export default {
     };
   },
   methods: {
-    openGallery(index) {
+    openGallery (index) {
       this.$refs.lightbox.showImage(index);
     }
   }

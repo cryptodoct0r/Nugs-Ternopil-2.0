@@ -1,8 +1,14 @@
 
   <template>
   <div>
-    <v-layout row wrap>
-      <v-carousel height="375" hide-delimiters>
+    <v-layout
+      row
+      wrap
+    >
+      <v-carousel
+        height="375"
+        hide-delimiters
+      >
         <v-carousel-item
           style="cursor: pointer;"
           prevent.stop
@@ -20,16 +26,40 @@
           </div>
         </v-carousel-item>
       </v-carousel>
-      <v-layout row wrap>
-        <v-flex xs12 sm6 class="text-xs-center text-sm-right">
-          <v-btn large router to="/meetups" class="primary">Explore News & Events</v-btn>
+      <v-layout
+        row
+        wrap
+      >
+        <v-flex
+          xs12
+          sm6
+          class="text-xs-center text-sm-right"
+        >
+          <v-btn
+            large
+            router
+            to="/meetups"
+            class="primary"
+          >Explore News & Events</v-btn>
         </v-flex>
-        <v-flex xs12 sm6 class="text-xs-center text-sm-left">
-          <v-btn large router to="/meetUp/new" class="primary">Update News & Events</v-btn>
+        <v-flex
+          xs12
+          sm6
+          class="text-xs-center text-sm-left"
+        >
+          <v-btn
+            large
+            router
+            to="/meetUp/new"
+            class="primary"
+          >Update News & Events</v-btn>
         </v-flex>
       </v-layout>
     </v-layout>
-    <v-layout row wrap></v-layout>
+    <v-layout
+      row
+      wrap
+    ></v-layout>
   </div>
 </template>
 
@@ -38,12 +68,12 @@
 <script>
 export default {
   computed: {
-    meetups() {
+    meetups () {
       return this.$store.getters.featuredMeetups;
     }
   },
   methods: {
-    onLoadMeetup(id) {
+    onLoadMeetup (id) {
       this.$router.push("/meetups/" + id);
     }
   }

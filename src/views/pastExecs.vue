@@ -3,15 +3,31 @@
     <h1 class="heading grey--text">Past Presidents</h1>
     <v-container grid-list-xs>
       <v-card>
-        <v-layout row wrap>
-          <v-flex xs9 sm11>
+        <v-layout
+          row
+          wrap
+        >
+          <v-flex
+            xs9
+            sm11
+          >
             <v-card-text>2018/2019 Zach and Mbea</v-card-text>
           </v-flex>
-          <v-flex xs3 sm1>
+          <v-flex
+            xs3
+            sm1
+          >
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
-                  <v-btn small flat fab v-on="on" router to="/Execs_2018_2019">
+                  <v-btn
+                    small
+                    flat
+                    fab
+                    v-on="on"
+                    router
+                    to="/Execs_2018_2019"
+                  >
                     <v-icon>fas fa-link</v-icon>
                   </v-btn>
                 </template>
@@ -21,12 +37,27 @@
           </v-flex>
         </v-layout>
 
-        <v-container fluid grid-list-lg>
-          <v-layout row wrap>
-            <v-flex xs12 sm6>
+        <v-container
+          fluid
+          grid-list-lg
+        >
+          <v-layout
+            row
+            wrap
+          >
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout row wrap>
-                  <v-flex xs12 sm8>
+                <v-layout
+                  row
+                  wrap
+                >
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Zachariah Gyetuah</div>
@@ -35,27 +66,56 @@
                       </div>
                     </v-card-title>
                   </v-flex>
-                  <v-flex xs12 sm4>
-                    <v-img src="/zackEdited.jpg" height="125px" contain></v-img>
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/zackEdited.jpg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
                 </v-layout>
                 <v-divider light></v-divider>
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6>
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout wrap row>
-                  <v-flex xs12 sm4>
-                    <v-img src="/nana.jpeg" height="125px" contain></v-img>
+                <v-layout
+                  wrap
+                  row
+                >
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/nana.jpeg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
-                  <v-flex xs12 sm8>
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Nana Mbeah Otoo</div>
@@ -69,7 +129,13 @@
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
@@ -81,15 +147,29 @@
     </v-container>
     <v-container grid-list-xs>
       <v-card>
-        <v-layout row wrap>
-          <v-flex xs9 sm11>
+        <v-layout
+          row
+          wrap
+        >
+          <v-flex
+            xs9
+            sm11
+          >
             <v-card-text>2017/2018 Christian and Ella</v-card-text>
           </v-flex>
-          <v-flex xs3 sm1>
+          <v-flex
+            xs3
+            sm1
+          >
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
-                  <v-btn small flat fab v-on="on">
+                  <v-btn
+                    small
+                    flat
+                    fab
+                    v-on="on"
+                  >
                     <v-icon>fas fa-link</v-icon>
                   </v-btn>
                 </template>
@@ -99,12 +179,27 @@
           </v-flex>
         </v-layout>
 
-        <v-container fluid grid-list-lg>
-          <v-layout row wrap>
-            <v-flex xs12 sm6>
+        <v-container
+          fluid
+          grid-list-lg
+        >
+          <v-layout
+            row
+            wrap
+          >
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout row wrap>
-                  <v-flex xs12 sm8>
+                <v-layout
+                  row
+                  wrap
+                >
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Acquah Christian Fosu</div>
@@ -113,27 +208,56 @@
                       </div>
                     </v-card-title>
                   </v-flex>
-                  <v-flex xs12 sm4>
-                    <v-img src="/chris.jpeg" height="125px" contain></v-img>
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/chris.jpeg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
                 </v-layout>
                 <v-divider light></v-divider>
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6>
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout wrap row>
-                  <v-flex xs12 sm4>
-                    <v-img src="/ella.jpeg" height="125px" contain></v-img>
+                <v-layout
+                  wrap
+                  row
+                >
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/ella.jpeg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
-                  <v-flex xs12 sm8>
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Poku Emmanuella Adusei</div>
@@ -147,7 +271,13 @@
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
@@ -159,15 +289,29 @@
     </v-container>
     <v-container grid-list-xs>
       <v-card>
-        <v-layout row wrap>
-          <v-flex xs9 sm11>
+        <v-layout
+          row
+          wrap
+        >
+          <v-flex
+            xs9
+            sm11
+          >
             <v-card-text>2015/2016 and 2016/2017 Juliet and Samuel</v-card-text>
           </v-flex>
-          <v-flex xs3 sm1>
+          <v-flex
+            xs3
+            sm1
+          >
             <v-card-actions>
               <v-tooltip left>
                 <template v-slot:activator="{ on }">
-                  <v-btn small flat fab v-on="on">
+                  <v-btn
+                    small
+                    flat
+                    fab
+                    v-on="on"
+                  >
                     <v-icon>fas fa-link</v-icon>
                   </v-btn>
                 </template>
@@ -177,12 +321,27 @@
           </v-flex>
         </v-layout>
 
-        <v-container fluid grid-list-lg>
-          <v-layout row wrap>
-            <v-flex xs12 sm6>
+        <v-container
+          fluid
+          grid-list-lg
+        >
+          <v-layout
+            row
+            wrap
+          >
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout row wrap>
-                  <v-flex xs12 sm8>
+                <v-layout
+                  row
+                  wrap
+                >
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Julliet Kusi Boahen</div>
@@ -191,27 +350,56 @@
                       </div>
                     </v-card-title>
                   </v-flex>
-                  <v-flex xs12 sm4>
-                    <v-img src="/juliet.jpeg" height="125px" contain></v-img>
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/juliet.jpeg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
                 </v-layout>
                 <v-divider light></v-divider>
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6>
+            <v-flex
+              xs12
+              sm6
+            >
               <v-card>
-                <v-layout wrap row>
-                  <v-flex xs12 sm4>
-                    <v-img src="/samuel.jpeg" height="125px" contain></v-img>
+                <v-layout
+                  wrap
+                  row
+                >
+                  <v-flex
+                    xs12
+                    sm4
+                  >
+                    <v-img
+                      src="/samuel.jpeg"
+                      height="125px"
+                      contain
+                    ></v-img>
                   </v-flex>
-                  <v-flex xs12 sm8>
+                  <v-flex
+                    xs12
+                    sm8
+                  >
                     <v-card-title primary-title>
                       <div>
                         <div class="headline">Samuel Asare Boahen</div>
@@ -225,7 +413,13 @@
                 <v-card-actions class="pa-3">
                   Contact Details
                   <v-spacer></v-spacer>
-                  <v-btn fab small router href="https://twitter.com" target="_blank">
+                  <v-btn
+                    fab
+                    small
+                    router
+                    href="https://twitter.com"
+                    target="_blank"
+                  >
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-actions>
@@ -261,7 +455,7 @@ export default {
       }
     ]
   },
-  data() {
+  data () {
     return {};
   }
 };

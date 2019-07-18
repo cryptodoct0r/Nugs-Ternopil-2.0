@@ -34,7 +34,7 @@ import TheFooter from "@/components/TheFooter";
 export default {
   name: "App",
   components: { TheNavbar, TheFooter },
-  data() {
+  data () {
     return {
       dark: false
     };

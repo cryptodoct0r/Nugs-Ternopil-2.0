@@ -48,7 +48,7 @@
 <script>
 import db from "@/fb";
 export default {
-  data() {
+  data () {
     return {
       projects: []
     };
@@ -75,13 +75,13 @@ export default {
     ]
   },
   computed: {
-    myProjects() {
+    myProjects () {
       return this.projects.filter(project => {
         return project.person === "Neni Emsu";
       });
     }
   },
-  created() {
+  created () {
     db.collection("projects").onSnapshot(res => {
       const changes = res.docChanges();
 

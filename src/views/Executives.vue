@@ -3,11 +3,28 @@
     <h1 class="heading grey--text">Executives Page</h1>
 
     <v-container grid-list-xs>
-      <v-layout row wrap>
-        <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="` ${person.role} ${person.name}`">
-          <v-card class="text-xs-center mx-auto my-3" max-width="250" style="border-radius: 20px;">
+      <v-layout
+        row
+        wrap
+      >
+        <v-flex
+          xs12
+          sm6
+          md4
+          lg3
+          v-for="person in team"
+          :key="` ${person.role} ${person.name}`"
+        >
+          <v-card
+            class="text-xs-center mx-auto my-3"
+            max-width="250"
+            style="border-radius: 20px;"
+          >
             <v-responsive class="pb-4 pt-2">
-              <v-avatar size="120" :class="`pin lighten-2 ${person.color}`">
+              <v-avatar
+                size="120"
+                :class="`pin lighten-2 ${person.color}`"
+              >
                 <v-img
                   max-width="114"
                   max-height="114"
@@ -25,7 +42,12 @@
             </v-card-text>
             <v-card-actions justify-space-around>
               <v-tooltip top>
-                <v-btn fab color="grey" small slot="activator">
+                <v-btn
+                  fab
+                  color="grey"
+                  small
+                  slot="activator"
+                >
                   <v-icon small>message</v-icon>
                 </v-btn>
                 <span>Send a Message</span>
@@ -80,7 +102,7 @@ export default {
       }
     ]
   },
-  data() {
+  data () {
     return {
       team: [
         {
@@ -185,7 +207,7 @@ export default {
     };
   },
   methods: {
-    onLoadPastExecutives() {
+    onLoadPastExecutives () {
       this.$router.push("/pastExecs");
     }
   }
